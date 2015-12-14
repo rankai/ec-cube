@@ -1,0 +1,185 @@
+Login email: 邮箱地址
+Login pass: 密码
+Login memory: 自动登陆。
+Bad credentials.: 登陆失败。<br>请检查输入是否正确。
+Invalid CSRF token.: 无效的CSRF令牌，请重试。
+Your session has timed out, or you have disabled cookies.: 您的会话已超时或禁用了cookie。
+
+Name: 姓名
+Name01: 姓
+Name02: 名
+Kana: 姓名(注音假名)
+Kana01: 姓
+Kana02: 名
+Zip: 邮政编码
+Address: 住所
+Tel: 电话号码
+Fax: 传真号码
+Email: 邮箱地址
+Password: 密码
+Job: 职业
+Sex: 性別
+Birth: 生年月日
+Company name : 公司名称
+Contents: 咨询内容
+form.empty_value: 请选择
+form.pref.empty_value: 选择省市区
+form.job.empty_value: 请选择
+
+form.contact.address.help: 请填写省市区和居住地址。地址不能为空。
+form.contact.contents.help: 询问订单相关内容，请务必填写正确的订单号码。
+form.member.email.invalid: 请输入相同的邮箱地址。
+form.member.password.invalid: 请输入相同的密码。
+form.type.numeric.invalid: 只能输入数字。
+form.type.float.invalid : 只能输入数字和小数点。
+form.member.repeated.confirm: 请再次输入进行确认。
+form.type.graph.invalid: 请输入半角格式的数字。
+
+form.type.name.firstname.nothasspace: （名字）不能包含空格、tab和换行符。
+form.type.name.lastname.nothasspace: （姓）不能包含空格、tab和换行符。
+form.type.customer.company.nothasspace: （公司名称）不能包含空格、tab和换行符。
+
+form.type.admin.nottelstyle: 电话号码只能输入半角格式的数字。
+form.type.admin.notkanastyle: 您的姓名（注音假名）请输入片假名。
+
+form.type.select.notselect: 未选择任何项。
+
+form.type.select.selectisfuturedate: 不能选择未来的日期。
+
+cart.over.stock: |-
+    选购的商品(%product%)库存不足。
+    购买的数量超出了商品的当前库存。
+cart.over.sale_limit: |-
+    选购的商品(%product%)有销售限制。
+    同时购买的数量不能超出允许购买的最大值。
+cart.zero.stock: |-
+    选购的商品(%product%)暂时缺货。
+    请从购物车中移除此商品。
+cart.over.price_limit: 选购的商品总额超过上限。请调整商品数量。
+cart.product.type.kind: 不能同时购买这几种商品。
+cart.product.payment.kind: 选择了多种付款方式，不能进行购买。
+cart.product.delete:  当前选购的商品已经下架。请从购物车移除此商品。
+cart.product.not.status: 当前选购的商品暂时不支持购买。请从购物车移除此商品。
+
+shopping.multiple.delivery: 当前订单使用了不同的配送方法将商品配送至多个地址。
+
+front.shopping.order.error: 非常抱歉，购买过程中发生了未知的错误。
+front.shopping.stock.error: 选购的商品库存不足。请从购物车移除此商品。
+front.shopping.system.error: 非常抱歉，系统发生错误，不能处理您的订单，请与管理员联系。
+
+admin.install.warning: 安装已完成，请删除html/install.php文件。
+
+admin.register.complete: 注册完成。
+admin.register.failed: 注册失败。
+admin.delete.complete: 已删除。
+admin.delete.failed: 删除失败。
+admin.delete.warning: 已经被删除。
+admin.rank.move.complete: 完成等级移动。
+
+admin.order.save.complete: 订单信息已保存。
+admin.order.delete.complete: 订单信息已删除。
+
+Quantity: 数量
+
+admin.class_name.up.complete: 规格向上移动成功。
+admin.class_name.up.error: 规格向上移动失败。
+admin.class_name.down.complete: 规格向下移动成功。
+admin.class_name.down.error: 规格向下移动成功。
+admin.class_name.save.complete: 规格已保存。
+admin.class_name.save.error: 规格保存失败。
+admin.class_name.delete.complete: 规格已删除。
+admin.class_name.delete.error: 规格删除失败。
+
+admin.class_category.up.complete: 商品分类向上移动成功。
+admin.class_category.up.error: 商品分类向上移动失败。
+admin.class_category.down.complete: 商品分类向下移动成功。
+admin.class_category.down.error: 商品分类向下移动失败。
+admin.class_category.save.complete: 商品分类已保存。
+admin.class_category.save.error: 商品分类保存失败。
+admin.class_category.delete.complete: 商品分类已删除。
+admin.class_category.delete.error: 商品分类删除失败。
+admin.class_category.delete.hasproduct: 不能删除包含商品的分类。
+
+admin.category.up.complete: 商品类别向上移动成功。
+admin.category.up.error: 商品类别向上移动失败。
+admin.category.down.complete: 商品类别向下移动成功。
+admin.category.down.error: 商品类别向下移动失败。
+admin.category.save.complete: 商品类别已保存。
+admin.category.save.error: 商品类别保存失败。
+admin.category.delete.complete: 商品类别已删除。
+admin.category.delete.error: 商品类别删除失败。
+
+admin.product.search.stock: 无库存
+admin.product.product_class.save.complete: 商品规格设定已保存。
+admin.product.product_class.update.complete: 商品规格设定已更新。
+admin.product.product_class.delete.complete: 商品规格已删除。
+admin.product.copy.complete: 商品已复制。
+admin.product.copy.failed: 商品复制失败。
+admin.product.csv_import.save.complete: 商品CSV批量导入已完成。
+admin.category.csv_import.save.complete: 商品CSV批量导入失败。
+
+admin.customer.save.complete: 会员信息已保存。
+admin.customer.save.failed: 会员信息保存失败。
+admin.customer.delete.complete: 会员信息已删除。
+admin.customer.resend.complete: 注册确认邮件已发送。
+
+admin.news.up.complete: 新闻向上移动成功。
+admin.news.up.error: 新闻向上移动失败。
+admin.news.down.complete: 新闻向下移动成功。
+admin.news.down.error: 新闻向下移动失败。
+admin.news.save.complete: 新闻已保存。
+admin.news.save.error: 新闻保存失败。
+admin.news.delete.complete: 新闻已删除。
+admin.news.delete.error: 新闻删除失败。
+
+admin.member.up.complete: 成员向上移动成功。
+admin.member.up.error: 成员向上移动失败。
+admin.member.down.complete: 成员向下移动成功。
+admin.member.down.error: 成员向下移动失败。
+admin.member.save.complete: 会员信息已保存。
+admin.member.save.error: 成员信息保存失败。
+admin.member.delete.complete: 成员信息已删除。
+admin.member.delete.error: 成员删除失败。
+
+admin.shop.save.complete: 店铺信息已保存。
+admin.shop.save.error: 店铺信息保存失败。
+admin.shop.download.invalid: 下载有限制的情况下，请输入可以下载的时间段。
+admin.shop.latitude.invalid: 请输入-90.000000～90.000000 范围内的值
+admin.shop.longitude.invalid: 请输入-180.000000～180.000000 范围内的值
+
+admin.shop.tax.save.complete: 税率设置已保存。
+admin.shop.tax.delete.complete: 税率设置已清除。
+
+admin.shop.mail.save.complete: 邮件模板已保存。
+admin.shop.mail.save.error: 邮件模板保存失败。
+
+admin.shop.csv.save.complete: CSV导出设定已保存。
+
+admin.content.template.save.complete: 模板已保存。
+admin.content.template.add.complete: 模板已添加。
+admin.content.template.delete.complete: 模板已删除。
+admin.content.template.delete.default.error: 不能删除系统默认模板。
+admin.content.template.delete.current.error: 不能删除正在使用的模板。
+
+admin.sysmte.security.save.complete: 安全设置已保存。
+admin.sysmte.security.route.dir.complete: 后台管理地址变更成功，请重新登陆。
+
+admin.sysmte.authority.save.complete: 权限设置已保存。
+
+admin.plugin.enable.complete: 插件已启用。
+admin.plugin.disable.complete: 插件已禁用。
+admin.plugin.already.enable: 插件已经启用了。
+admin.plugin.already.disable: 插件已经禁用了。
+admin.plugin.uninstall.complete: 插件卸载完成。
+admin.plugin.update.complete: 插件更新完成。
+plugin already installed.: 插件已经安装了。
+admin.plugin.authentication.setting.complete: 身份验证设置已完成。
+admin.plugin.install.complete: 插件已安装。
+
+admin.preview.register.complete: 注册完成
+
+admin_title: 'EC-CUBE 管理后台' # 未使用
+normal_price_title: 正常价格    # 未使用
+sale_price_title: 出售价格
+form.address1.help: '请填写省市区 (例：河北省廊坊市)'
+form.address2.help: '请填写住宅名称/门牌号 (例：新源小区 1-3-5)'
